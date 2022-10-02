@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav#menu{
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    left: 1200px;
+    right: 40px;
+}
+nav#menu li{
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+    margin: 2px;
+}
+nav#menu li:hover{
+    background-color: rgb(104, 127, 255);
+    color: white;
+}
+nav#menu a{
+    text-decoration: none;
+    color: blueviolet;
+}
+nav#menu a:hover{
+    color: white;
+    
+}
+nav#menu img{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+div#capa{
+    margin-left: 300px;
+    margin-top: 15px;
+    margin-right: 300px;
+   
+}
+div#capa img{
+    width: 1230px;
+    height: 412px;
+}
+div.texto-home h1{
+    text-align: center;
+}
+div.texto-home p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 370px;
+}
+
+div.texto-quem h1{
+   text-align: justify;
+    font-size: bolder;
+
+}
+div.texto-quem p{
+    text-align: justify;
+    font-size: 16;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div.texto-quem li{
+    text-align: justify;
+    
+}
+div.texto-quem{
+    width: 1250px;
+    height: 700px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+div.forms{
+    margin-left:300px ;
+}
+div#forms label{
+    display: block;
+}
+div#forms{
+    margin-left: 300px;
+}
+div#forms button{
+    display: block;
+}
+div#forms textarea{
+    width: 300px;
+    height: 150px;
+}
